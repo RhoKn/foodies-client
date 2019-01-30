@@ -11,9 +11,9 @@ body{
 }
 
 .card-header{
-    background: #364760;
-    text-align: center;
-    color: #FFFFFF;
+    background: #364760 !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
 }
 .blue-btn{
     background: #15A4FA !important;
