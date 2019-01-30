@@ -10,6 +10,7 @@ import { UserComponent } from './components/users/users.component';
 import { LoginComponent } from './components/login/login.component';
 import { NotFoundComponent } from './components/notFound/notFound.component';
 import { RegisterComponent } from './components/register/register.component';
+import { EmployeesComponent } from './components/employees/empoyees.component';
 import { routing, appRoutingProviders } from './app.routing';
 
 @NgModule({
@@ -18,7 +19,8 @@ import { routing, appRoutingProviders } from './app.routing';
     UserComponent,
     LoginComponent,
     RegisterComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    EmployeesComponent
   ],
   imports: [
     BrowserModule,
