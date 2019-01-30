@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public resName: String;
   title = 'client';
+
+  constructor() {
+    this.resName = 'AL SAZÓN DE LA ABUELA';
+  }
 }

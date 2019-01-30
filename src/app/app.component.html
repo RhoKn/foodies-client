@@ -1,7 +1,21 @@
-<h1>{{title}}</h1>
-<a [routerLink] = "['/users']">Usuarios</a>
-<a [routerLink] = "['/register']">Registro</a>
-<a [routerLink] = "['/login']">Inicio de sesion</a>
-<a [routerLink] = "['/404']">Not found</a>
-<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-sm blueNav navbar-dark fixed-top">
+    <a [routerLink]="['/login']" class="navbar-brand fnt-disp-bld">{{resName}}<i class="fa fa-coffee"></i></a>
+    <ul class="navbar-nav fnt-disp-rg">
+        <li class="nav-item ">
+            <a class="nav-link " [routerLinkActive]="['active']" [routerLink]="['/users']">Usuarios<i class="fa fa-users"></i></a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/register']">Registro<i class="fa fa-sign-out"></i></a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/login']">Inicio de sesion<i class="fa fa-sign-in"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/404']">Not found<i class="fa fa-bell-o"></i></a>
+        </li>
+    </ul>
+</nav>
 
+<div class="divPad">
+    <router-outlet></router-outlet>
+</div>
