@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
+
 
 .navbar-nav .active {
     background: #2A394F;
@@ -11,21 +11,6 @@
 
 .navbar-brand{
     padding: 0rem 1rem;
-}
-.fnt-disp-rg{
-    font-family: 'Playfair Display',serif;
-}
-.fnt-disp-bld{
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-}
-
-.fnt-monts-rg{
-    font-family: 'Montserrat',serif;
-}
-.fnt-monts-bld{
-    font-family: 'Montserrat', serif;
-    font-weight: bold;
 }
 
 .navbar-expand-sm{
