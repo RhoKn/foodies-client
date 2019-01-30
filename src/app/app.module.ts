@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { UserComponent } from './components/users/users.component';
 import { LoginComponent } from './components/login/login.component';
@@ -22,7 +23,8 @@ import { routing, appRoutingProviders } from './app.routing';
   imports: [
     BrowserModule,
     FormsModule,
-    routing
+    routing,
+    AngularFontAwesomeModule
   ],
   providers: [
     appRoutingProviders
