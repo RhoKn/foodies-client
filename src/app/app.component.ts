@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'client';
 
   constructor() {
-    this.resName = 'FOODIES';
+    this.resName = 'AL SAZÓN DE LA ABUELA';
   }
 }

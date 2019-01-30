@@ -39,3 +39,11 @@
 .divPad{
     padding-top: 65px;
 }
+i {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.active i{
+    color: #15A4FA;
+}
